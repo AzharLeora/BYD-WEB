@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { image } from "@Assets";
 import "./index.css";
+import { motion } from "framer-motion";
 
 const WeddingHeader = () => {
   const [displayImage, setDisplayImage] = useState<number>(0);
@@ -17,11 +18,18 @@ const WeddingHeader = () => {
       className="main-banner d-flex align-items-center justify-content-center"
       style={{ height: "100%", width: "100%" }}
     >
-      <img
+      <motion.img
         src={arr[displayImage]}
         alt="img"
         width={"40%"}
         className="headerImg"
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 2,
+          delay: 1.8,
+          ease: [0, 0.71, 0.2, 1.01],
+        }}
       />
     </div>
   );
