@@ -1,4 +1,4 @@
-import { BdTemplates, Button, Home, PageNotFound, Preview, ScreenWrapper, WedInvitation, WedTemplates  } from "@Components";
+import { BdTemplates, Button, Home, PageNotFound, Preview, ScreenWrapper, WedInvitation, WedTemplates, WeddingFooter, WeddingHeader  } from "@Components";
 import { Route, Routes } from "react-router-dom";
 import { RequireAuth, RequireHome } from "@Routes";
 import { useSelector } from "react-redux";
@@ -34,6 +34,8 @@ function App() {
       </Routes> */}
      
       <WedInvitation />
+      {/* <WeddingHeader/>
+      <WeddingFooter/> */}
     </ScreenWrapper>
 
   );
