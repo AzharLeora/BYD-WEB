@@ -6,10 +6,10 @@ const WedInvitation=()=>{
     return (
         <>
         <h1>Wed Invitation</h1>
-        <WeddingHeader/>
+        {/* <WeddingHeader/> */}
         <BYDIvitation/>
-        <WeddingTimeLine/>
-        <WeddingFooter/>
+        {/* <WeddingTimeLine/> */}
+        {/* <WeddingFooter/> */}
         </>
     )
 }

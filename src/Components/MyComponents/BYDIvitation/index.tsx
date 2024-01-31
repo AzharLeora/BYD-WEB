@@ -1,9 +1,14 @@
 import React from 'react'
+import { image } from '@Assets';
 import "./index.css"
 
 function BYDIvitation() {
   return (
-    <><h1>BYDIvitation</h1></>
+    <>
+    <div className='d-flex justify-content-center mx-3 my-4 BYDContainer '>
+      <img className='image-fluid bodyImage'  src={image.bodyInvitation}/>
+    </div>
+    </>
   )
 }
 
