@@ -1,3 +1,26 @@
+
+.timeline-bg{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.timeline-bg::before{
+    content: '';
+    background-image:  url('../../../Assets/img/images/couple-timeline\ -bg.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    opacity: 0.10;
+}
 .title{
     font-size: 48px;
     font-weight: 300;
@@ -11,7 +34,10 @@
     color: #801743;
     font-size: 30px;
     font-family:  'Philosopher', sans-serif;
+  }.content-box{
+    color:#000
   }
+  
   .caricature-box img{
     width: 70%;
   }
