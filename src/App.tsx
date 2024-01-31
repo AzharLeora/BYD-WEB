@@ -4,8 +4,6 @@ import { RequireAuth, RequireHome } from "@Routes";
 import { useSelector } from "react-redux";
 import { changeLanguage } from "@I18n";
 
-
-
 /**
  *  select-react  - important need to add this app.js
 */
@@ -27,11 +25,9 @@ import UserLocation from "./Components/MyComponents/UserLocation";
 
 function App() {
 
-
   // const { language } = useSelector((state: any) => state.AuthReducer);
 
   // changeLanguage(language?.value);
-
 
   return (
     <ScreenWrapper>

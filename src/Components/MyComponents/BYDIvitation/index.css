@@ -1,0 +1,9 @@
+.bodyImage{
+    width: 100%;
+}
+@media (max-width:801px){
+    .BYDContainer div{
+        width: fit-content;
+    }
+
+}
