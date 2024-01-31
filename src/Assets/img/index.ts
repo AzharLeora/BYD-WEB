@@ -13,7 +13,7 @@ export const image = {
     rectangleLeafBg:require('./images/rectangle-leaf-background.webp'),
     handHeart:require('./images/heart.png'),
     loveBirds:require('./images/love-birds.png'),
-    traditional:require('./images/traditional-image.webp'),
+    traditional:require('./images/traditional-image.png'),
     bodyInvitation:require('./images/bodyImage.png')
    
 

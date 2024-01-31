@@ -2,6 +2,7 @@
     font-size: 48px;
     font-weight: 300;
     color:#801743;
+    font-family: 'Philosopher', sans-serif;
   }
   hr{
     background-color: #ce3e7a;
@@ -9,6 +10,7 @@
   .event-date{
     color: #801743;
     font-size: 30px;
+    font-family:  'Philosopher', sans-serif;
   }
   .caricature-box img{
     width: 70%;
@@ -17,13 +19,14 @@
     color: #801743;
     font-size: 30px;
     font-weight: 300;
+    font-family:  'Philosopher', sans-serif;
   }
   .content-box .Quote, .content-box .address{
     font-family: 'Comfortaa', sans-serif;
   }
 @media(max-width:1024px){
 .title{
-  font-size: 40px;
+  font-size: 40px ;
 }
 }
 @media(max-width:768px){
