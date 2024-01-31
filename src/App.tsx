@@ -4,8 +4,6 @@ import { RequireAuth, RequireHome } from "@Routes";
 import { useSelector } from "react-redux";
 import { changeLanguage } from "@I18n";
 
-
-
 /**
  *  select-react  - important need to add this app.js
 */
@@ -18,19 +16,13 @@ import "sweetalert2/dist/sweetalert2.min.css";
 import "quill/dist/quill.core.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./App.css"
-import { Wedding001 } from "./Components/MyComponents/Invitations";
-
-
-// toast 
 
 
 function App() {
 
-
   // const { language } = useSelector((state: any) => state.AuthReducer);
 
   // changeLanguage(language?.value);
-
 
   return (
     <ScreenWrapper>
@@ -40,7 +32,7 @@ function App() {
         <Route path="/Preview" element={<Wedding001/>}/>
         <Route path="/BirthdayTemplates" element={<BdTemplates/>}/>
       </Routes> */}
-      {/* <Wedding001/> */}
+     
       <WedInvitation />
     </ScreenWrapper>
 

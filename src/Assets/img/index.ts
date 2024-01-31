@@ -11,7 +11,7 @@ export const image = {
     flowerBorder:require('./images/flower-border.webp'),
     doubleGoldenHexagone:require('./images/double-golden-hexagon.png'),
     rectangleLeafBg:require('./images/rectangle-leaf-background.webp'),
-
+    bodyInvitation:require('./images/bodyImage.png')
    
 
 }

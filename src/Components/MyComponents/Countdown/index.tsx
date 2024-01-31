@@ -1,9 +1,11 @@
-import './index.css'
-const Countdown=()=>{
- return(
+import "./index.css";
+
+const Countdown = ({ targetDate }) => {
+  
+  return (
     <>
-    <h1>Countdown</h1>
+    
     </>
- )
-}
-export {Countdown}
+  );
+};
+export { Countdown };
