@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@0,6..96;1,6..96&family=Caveat:wght@400;500;700&family=Cinzel&family=Cormorant+Garamond&family=Great+Vibes&family=IBM+Plex+Serif:wght@100;400&family=Lora&family=Montserrat+Alternates&family=Oswald:wght@200;300;400&family=Philosopher:ital@0;1&family=Single+Day&display=swap');
+/* font-family: 'Bodoni Moda', serif;
+font-family: 'Caveat', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Single Day', cursive; */
 *{
     font-family: 'Kanit', sans-serif;
 }
