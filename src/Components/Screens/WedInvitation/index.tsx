@@ -7,7 +7,7 @@ const WedInvitation=()=>{
         <>
         <WeddingHeader/>
         <BYDIvitation/>
-        {/* <WeddingTimeLine/> */}
+        <WeddingTimeLine/>
         <WeddingFooter/>
         </>
     )

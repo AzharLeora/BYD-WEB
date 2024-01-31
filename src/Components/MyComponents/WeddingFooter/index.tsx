@@ -22,10 +22,10 @@ const WeddingFooter = () => {
         <img src={arr[displayImage]} alt="img" width={"35%"} className="footerImg" />
       </div>
       <div
-        className="footer-text px-5 text-white py-1 d-flex justify-content-center"
+        className="footer-text px-5 text-white py-1 d-flex justify-content-end"
         style={{  width: "100%" }}
       >
-        <div className="d-flex align-items-center">
+        <div className="d-flex align-items-end">
           <img
             className="my-logo"
             src={image.logo}
