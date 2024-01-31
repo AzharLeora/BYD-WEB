@@ -1,0 +1,122 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+.invitation{
+    width: 30%;
+    border: 1px solid gray;
+    height: 100%;
+  background-image: url('../../../../../Assets/img/images/rectangle-leaf-background.webp');
+  background-repeat: no-repeat;
+ background-size: cover;
+
+}
+.std{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 20px 0;
+}
+.men,.women{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+}
+div{
+    font-family: 'Comfortaa', sans-serif;
+}
+.top-content{
+    font-family: 'Comfortaa', sans-serif;
+}
+
+
+.center-Image{
+    position: relative;
+    
+}
+.center-content{
+    position: absolute;
+   top: 6%;
+    left: 26%;
+    
+}
+.month h2,.Date h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.ceremony,.reception,.endlind{
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:200;
+    font-size: 1rem;
+}
+
+
+@media (max-width:1024px){
+    .invitation{
+        width: 90%;
+    }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+.invitation{
+    /* width: 30%; */
+    border: 1px solid gray;
+    height: 100%;
+  background-image: url('../../../../../Assets/img/images/rectangle-leaf-background.webp');
+  background-repeat: no-repeat;
+ background-size:cover;
+
+}
+.std{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 0;
+}
+.men,.women{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+div{
+    font-family: 'Comfortaa', sans-serif;
+}
+.top-content{
+    font-family: 'Comfortaa', sans-serif;
+ 
+}
+
+
+.center-Image{
+    background-image: url('../../../../../Assets/img/images/double-golden-hexagon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+/* .center-content{
+    position: absolute;
+   top: 6%;
+    left: 26%;
+    
+} */
+.month h2,.Date h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.ceremony,.reception,.endlind{
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:150;
+    font-size: 1rem;
+}
+
+
+@media (max-width:1024px){
+    .invitation{
+        width: 90%;
+    }
+}
+@media (max-width:425px) {
+    .men,.women{
+        font-size:2rem;
+    }
+}

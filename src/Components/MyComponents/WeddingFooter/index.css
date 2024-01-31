@@ -1,0 +1,27 @@
+.footer-banner{
+    background: url('../../../Assets/img/images/f-b-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer-text{
+    background-color: #c42323;
+}
+.footerImg{
+    margin: 10px 0;
+}
+.my-logo{
+    filter: brightness(0) saturate(100%) contrast(100%);
+}
+@media (max-width:620px){
+    .footer-banner img{
+        width: 90%;
+
+    }
+}
+
+@media (max-width:320px){
+    .footer-text{
+        padding: 0 5px;
+    }
+}

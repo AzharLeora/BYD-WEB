@@ -1,0 +1,8 @@
+.form-row-gap{
+display: grid;
+grid-template-columns: 25% 75%;
+
+row-gap: 1.5rem;
+column-gap: 5px;
+
+}
