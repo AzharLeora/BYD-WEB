@@ -19,6 +19,7 @@ import "quill/dist/quill.core.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./App.css"
 import { Wedding001 } from "./Components/MyComponents/Invitations";
+import UserLocation from "./Components/MyComponents/UserLocation";
 
 
 // toast 
@@ -41,7 +42,8 @@ function App() {
         <Route path="/BirthdayTemplates" element={<BdTemplates/>}/>
       </Routes> */}
       {/* <Wedding001/> */}
-      <WedInvitation />
+      {/* <WedInvitation /> */}
+      <UserLocation/>
     </ScreenWrapper>
 
   );
