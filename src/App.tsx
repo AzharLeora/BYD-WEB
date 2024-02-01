@@ -38,8 +38,8 @@ function App() {
         <Route path="/BirthdayTemplates" element={<BdTemplates/>}/>
       </Routes> */}
       {/* <Wedding001/> */}
-      {/* <WedInvitation /> */}
-      <UserLocation/>
+      <WedInvitation />
+      {/* <UserLocation/> */}
     </ScreenWrapper>
 
   );
