@@ -10,15 +10,12 @@ export const image = {
     flowerBorder:require('./images/flower-border.webp'),
     doubleGoldenHexagone:require('./images/double-golden-hexagon.png'),
     rectangleLeafBg:require('./images/rectangle-leaf-background.webp'),
-<<<<<<< HEAD
     h1Img:require('./images/h1-img.jpg'),
     h2Img:require('./images/h2-img.jpg'),
     f1Img:require('./images/f1-img.jpg'),
     f2Img:require('./images/f2-img.jpg'),
-    logo:require('./images/BYD-logo.png')
-=======
+    logo:require('./images/BYD-logo.png'),
     bodyInvitation:require('./images/bodyImage.png')
->>>>>>> be588a4c4ef04cce7a752b17c64092c8d17225af
    
 
 }
