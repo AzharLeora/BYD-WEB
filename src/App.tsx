@@ -16,6 +16,11 @@ import "sweetalert2/dist/sweetalert2.min.css";
 import "quill/dist/quill.core.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./App.css"
+import { Wedding001 } from "./Components/MyComponents/Invitations";
+import UserLocation from "./Components/MyComponents/UserLocation";
+
+
+// toast 
 
 
 function App() {
@@ -32,10 +37,12 @@ function App() {
         <Route path="/Preview" element={<Wedding001/>}/>
         <Route path="/BirthdayTemplates" element={<BdTemplates/>}/>
       </Routes> */}
+
      
       <WedInvitation />
       {/* <WeddingHeader/>
       <WeddingFooter/> */}
+
     </ScreenWrapper>
 
   );
