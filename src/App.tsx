@@ -1,4 +1,4 @@
-import { BdTemplates, Button, Countdown, Home, PageNotFound, Preview, ScreenWrapper, WedInvitation, WedTemplates, WeddingTimeLine  } from "@Components";
+import { BdTemplates, Button, Countdown, Home, PageNotFound, Preview, ScreenWrapper, WedInvitation, WedTemplates, WeddingFooter, WeddingHeader, WeddingTimeLine  } from "@Components";
 import { Route, Routes } from "react-router-dom";
 import { RequireAuth, RequireHome } from "@Routes";
 import { useSelector } from "react-redux";
@@ -16,6 +16,11 @@ import "sweetalert2/dist/sweetalert2.min.css";
 import "quill/dist/quill.core.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./App.css"
+import { Wedding001 } from "./Components/MyComponents/Invitations";
+import UserLocation from "./Components/MyComponents/UserLocation";
+
+
+// toast 
 
 
 function App() {
@@ -33,9 +38,13 @@ function App() {
         <Route path="/BirthdayTemplates" element={<BdTemplates/>}/>
       </Routes> */}
       {/* <Wedding001/> */}
-      {/* <WedInvitation /> */}
-      {/* <WeddingTimeLine/> */}
+     
+      <WeddingHeader />
       <Countdown />
+      <WedInvitation /> 
+      <WeddingTimeLine/>
+      <WeddingFooter />
+
     </ScreenWrapper>
 
   );
