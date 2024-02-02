@@ -1,9 +1,13 @@
 .bodyImage{
     width: 100%;
+    height: 100vh;
 }
+
 @media (max-width:801px){
     .BYDContainer div{
-        width: fit-content;
+        width: 100%;
     }
-
+    .bodyImage {
+        height: auto; 
+      }
 }

@@ -18,6 +18,9 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./App.css"
 
 
+// toast 
+
+
 function App() {
 
   // const { language } = useSelector((state: any) => state.AuthReducer);
@@ -36,6 +39,7 @@ function App() {
       <WedInvitation />
       {/* <WeddingHeader/>
       <WeddingFooter/> */}
+
     </ScreenWrapper>
 
   );
