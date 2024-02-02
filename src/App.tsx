@@ -31,21 +31,9 @@ function App() {
   // changeLanguage(language?.value);
 
   return (
-    <ScreenWrapper>
-      {/* <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/WeddingTemplates" element={<WedTemplates/>}/>
-        <Route path="/Preview" element={<Wedding001/>}/>
-        <Route path="/BirthdayTemplates" element={<BdTemplates/>}/>
-      </Routes> */}
-
-     
+    <ScreenWrapper>   
       <WedInvitation />
-      {/* <WeddingHeader/>
-      <WeddingFooter/> */}
-
     </ScreenWrapper>
-
   );
 }
 export default App; 
