@@ -13,16 +13,15 @@ const WedInvitation=()=>{
         <WeddingHeader/>
         <div className="home-bg">
 
-        <div className="container">
-        <Countdown/>
-        </div>
-        <div className="container">
-        <BYDIvitation/>
+         <div className="container">
+         <Countdown/>
+         <div  className='invitation-section'>
+         <BYDIvitation/>
         </div>
         <WeddingTimeLine/>
-        <div className="container">
         <WeddingFooter/>
         </div>
+
         </div>
         </>
     )
