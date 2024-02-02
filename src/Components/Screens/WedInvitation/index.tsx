@@ -5,7 +5,6 @@ import { BYDIvitation } from '@Components//MyComponents/BYDIvitation'
 const WedInvitation=()=>{
     return (
         <>
-       
         <WeddingHeader/>
         <BYDIvitation/>
         <WeddingTimeLine/>

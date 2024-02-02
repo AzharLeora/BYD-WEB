@@ -1,5 +1,7 @@
+import UserLocation from '../UserLocation';
 import './index.css';
 import { image } from '@Assets';
+
 
 const WeddingTimeLine=()=>{
     return(
@@ -112,8 +114,8 @@ const WeddingTimeLine=()=>{
               <div className="row venue">
              <div className="col-6 d-flex align-items-center justify-content-center" style={{borderRight:'1px solid #ce3e7a'}}>
               <div className="caricature-box d-flex align-items-center justify-content-center">
-                <img src={image.couples}  alt="Couples"/>
-                
+                {/* <img src={image.couples}  alt="Couples"/> */}
+                <UserLocation/>
               </div>
              </div>
              <div className="col-6 d-flex align-items-center justify-content-center " style={{borderLeft:'1px solid #ce3e7a',width:'100%'}}>

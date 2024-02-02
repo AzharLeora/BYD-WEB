@@ -1,4 +1,4 @@
-import { BdTemplates, Button, Home, PageNotFound, Preview, ScreenWrapper, WedInvitation, WedTemplates, WeddingTimeLine  } from "@Components";
+import { BdTemplates, Button, Home, PageNotFound, Preview, ScreenWrapper, WedInvitation, WedTemplates, WeddingFooter, WeddingHeader  } from "@Components";
 import { Route, Routes } from "react-router-dom";
 import { RequireAuth, RequireHome } from "@Routes";
 import { useSelector } from "react-redux";
@@ -7,6 +7,7 @@ import { changeLanguage } from "@I18n";
 /**
  *  select-react  - important need to add this app.js
 */
+
 import "select2/dist/css/select2.min.css";
 import "react-notification-alert/dist/animate.css";
 import "react-perfect-scrollbar/dist/css/styles.css";
@@ -37,9 +38,12 @@ function App() {
         <Route path="/Preview" element={<Wedding001/>}/>
         <Route path="/BirthdayTemplates" element={<BdTemplates/>}/>
       </Routes> */}
-      {/* <Wedding001/> */}
+
+     
       <WedInvitation />
-      {/* <UserLocation/> */}
+      {/* <WeddingHeader/>
+      <WeddingFooter/> */}
+
     </ScreenWrapper>
 
   );
