@@ -1,0 +1,114 @@
+/* .SubDiv {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:url('https://images.unsplash.com/photo-1500534623283-312aade485b7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+      background-position:0 53%;
+      padding: 40px;
+      filter:grayscale(20%) invert(80%);
+  }
+  #GreetContent {
+      mix-blend-mode:difference;
+    color:black;
+    font-size:50px;
+    filter:invert(100%)
+  }
+  .MainDivSW {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+  }
+  .box-shaddow {
+    box-shadow: 3px 3px 7px rgb(152, 139, 139);
+  }
+  .InputNum {
+    text-align: center;
+  }
+  
+  .InputNum input {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .colonAllign {
+    margin-top: 70px;
+    margin: 50px 10px 0px 10px;
+  }
+  
+  .controlKeys {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .controlKeys .btn {
+    border-radius: 10px;
+    height: 30px;
+    width: 75px;
+  }
+  .CountDown-Msg{
+    height:10vh;
+    width:100%;
+     box-shadow: 3px 3px 7px rgb(152, 139, 139); 
+    margin: 5vh 0vh;
+    margin-bottom: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+
+
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .flip-clock {
+    display: flex;
+    font-size: 3rem;
+  }
+
+  .flip-digit {
+    position: relative;
+    perspective: 800px;
+    margin: 0 0.5rem;
+  }
+
+  .flip-digit-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .flip-digit-front,
+  .flip-digit-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #333;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+
+  .flip-digit-back {
+    transform: rotateX(180deg);
+  }
