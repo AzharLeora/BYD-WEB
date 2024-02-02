@@ -1,11 +1,10 @@
 .bodyImage{
-    width: 100%;
-    height: 100vh;
+    width: 100%;  
 }
 
 @media (max-width:801px){
     .BYDContainer div{
-        width: 100%;
+        width: 90%;
     }
     .bodyImage {
         height: auto; 
