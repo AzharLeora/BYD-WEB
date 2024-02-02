@@ -11,7 +11,7 @@ function UserLocation() {
 
   return (
     <div>
-        <iframe style={{height:"100vh",width:"100%"}} id="iframeId" ></iframe>
+        <iframe style={{height:"100%",width:"100%"}} id="iframeId" ></iframe>
     </div>
   )
 }
