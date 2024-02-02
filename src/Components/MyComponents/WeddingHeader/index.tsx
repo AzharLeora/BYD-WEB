@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 const WeddingHeader = () => {
   const [displayImage, setDisplayImage] = useState<number>(0);
   let arr: any[] = [image.h1Img, image.h2Img];
+
   useEffect(() => {
     let si = setInterval(() => {
       setDisplayImage((pre) => (pre + 1) % arr.length);
@@ -34,4 +35,5 @@ const WeddingHeader = () => {
     </div>
   );
 };
+
 export { WeddingHeader };

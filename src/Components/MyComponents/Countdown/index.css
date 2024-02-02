@@ -1,0 +1,46 @@
+.timer-bg {
+  background-image: url("../../../Assets/img/images/countdown-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(203, 203, 203);
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.box-shaddow {
+  width: clamp(10vw, 15vw, 20vw);
+  height: (10vh, 15vh, 20vh);
+  border-radius: 10%;
+  box-shadow: 3px 3px 7px rgb(152, 139, 139);
+  box-sizing: border-box;
+}
+.InputNum {
+  text-align: center;
+}
+.CountDown-Msg {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(20px, 4vw, 40px);
+  font-weight: bold;
+  font-family: "Great Vibes", cursive !important;
+}
+.countdown-setup {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.countown-title {
+  font-size: clamp(14px, 3vw, 25px);
+}
+.countown-num {
+  font-size: clamp(20px, 4vw, 40px);
+  font-weight: bold;
+  font-family: "Great Vibes", cursive;
+  color: rgba(56, 54, 54, 0.644);
+}

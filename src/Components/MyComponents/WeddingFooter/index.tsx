@@ -4,11 +4,11 @@ import "./index.css";
 
 const WeddingFooter = () => {
   const [displayImage, setDisplayImage] = useState<number>(0);
-  let arr :any[]= [image.f1Img, image.f2Img];
+  let arr: any[] = [image.f1Img, image.f2Img];
 
   useEffect(() => {
     let si = setInterval(() => {
-    setDisplayImage(pre=>(pre+1)%arr.length)
+      setDisplayImage((pre) => (pre + 1) % arr.length);
     }, 3000);
     return () => clearInterval(si);
   }, [displayImage]);
@@ -19,11 +19,16 @@ const WeddingFooter = () => {
         className="footer-banner d-flex align-items-center justify-content-center"
         style={{ height: "97%", width: "100%" }}
       >
-        <img src={arr[displayImage]} alt="img" width={"35%"} className="footerImg" />
+        <img
+          src={arr[displayImage]}
+          alt="img"
+          width={"35%"}
+          className="footerImg"
+        />
       </div>
       <div
         className="footer-text px-5 text-white py-1 d-flex justify-content-end"
-        style={{  width: "100%" }}
+        style={{ width: "100%" }}
       >
         <div className="d-flex align-items-end">
           <img
@@ -32,7 +37,7 @@ const WeddingFooter = () => {
             alt="logo"
             height={"40vh"}
             width={"100%"}
-          />{" "}
+          />
         </div>
         <div className="d-flex align-items-center text-dark">bookyour.day</div>
       </div>
