@@ -8,7 +8,7 @@ import Aos from 'aos'
 const WeddingTimeLine = () => {
 
   useEffect(()=>{
-    Aos.refresh({
+    Aos.init({
         duration: 1000,
         delay: 500,});
 },[])
