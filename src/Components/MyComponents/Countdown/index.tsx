@@ -6,7 +6,10 @@ import Aos from 'aos'
 const Countdown = () => {
 
  useEffect(()=>{
-    Aos.init()
+    Aos.init({
+      duration:1000,
+      delay:100,
+    })
  },[])
   
   return(

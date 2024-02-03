@@ -20,10 +20,10 @@
   opacity: 0.1;
 }
 .title {
-  font-size: 48px;
-  font-weight: 300;
+  font-size: 40px;
+  font-weight: bolder;
   color: #801743;
-  font-family: "Philosopher", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 hr {
   background-color: #ce3e7a;
@@ -31,8 +31,7 @@ hr {
 .event-date {
   color: #801743;
   font-size: 30px;
-  font-family: "Philosopher", sans-serif;
-}
+  font-family: 'Montserrat', sans-serif;}
 .content-box {
   color: #000;
 }
@@ -43,11 +42,10 @@ hr {
   color: #801743;
   font-size: 30px;
   font-weight: 300;
-  font-family: "Philosopher", sans-serif;
-}
+  font-family: 'Montserrat', sans-serif;}
 .content-box .Quote,
 .content-box .address {
-  font-family: "Comfortaa", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
   .map-img{
     height: 250px;
@@ -57,12 +55,12 @@ hr {
 
 @media (max-width: 1024px) {
   .title {
-    font-size: 40px;
+    font-size: 32px;
   }
 }
 @media (max-width: 768px) {
   .title {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 @media (max-width: 426px) {

@@ -1,8 +1,8 @@
-import { Countdown, WeddingFooter, WeddingHeader, WeddingTimeLine } from '@Components//MyComponents'
+import { Countdown, WeddingFooter, WeddingHeader, WeddingTimeLine } from '@Components'
 import './index.css'
 import 'aos/dist/aos.css'
 import Aos from 'aos'
-import { BYDInvitation } from '@Components//MyComponents/BYDInvitation'
+import { BYDInvitation } from '@Components'
 import { useEffect, useState } from 'react'
 
 const WedInvitation=()=>{
@@ -10,6 +10,7 @@ const WedInvitation=()=>{
     useEffect(()=>{
         Aos.init({
             duration: 1000,
+            delay:100,
            });
     },[])
 
