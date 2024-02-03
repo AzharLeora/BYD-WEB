@@ -30,7 +30,7 @@ const WeddingFooter = () => {
         className="footer-text px-5 text-white py-1 d-flex justify-content-end"
         style={{ width: "100%" }}
       >
-        <div className="d-flex align-items-end">
+        {/* <div className="d-flex align-items-end">
           <img
             className="my-logo"
             src={image.logo}
@@ -39,7 +39,7 @@ const WeddingFooter = () => {
             width={"100%"}
           />
         </div>
-        <div className="d-flex align-items-center text-dark">bookyour.day</div>
+        <div className="d-flex align-items-center text-dark">bookyour.day</div> */}
       </div>
     </>
   );

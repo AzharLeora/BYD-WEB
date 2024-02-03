@@ -1,0 +1,22 @@
+import React,{useEffect} from "react";
+import { image } from "@Assets";
+import "./index.css";
+import 'aos/dist/aos.css'
+  import Aos from 'aos'
+
+
+function BYDInvitation() {
+  useEffect(()=>{
+    Aos.init();
+},[])
+
+  return (
+    <>
+      <div className="d-flex justify-content-center align-item-center BYDContainer" >
+          <img className="image-fluid bodyImage" src={image.bodyInvitation} />
+      </div>
+    </>
+  );
+}
+
+export { BYDInvitation };

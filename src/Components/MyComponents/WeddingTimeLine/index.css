@@ -49,6 +49,12 @@ hr {
 .content-box .address {
   font-family: "Comfortaa", sans-serif;
 }
+  .map-img{
+    height: 250px;
+     width: 250px; 
+     box-shadow: rgba(0, 0, 0, 0.5) 2.4px 2.4px 3.2px;  
+      }
+
 @media (max-width: 1024px) {
   .title {
     font-size: 40px;
@@ -86,5 +92,34 @@ hr {
   .content-box .address {
     box-sizing: border-box;
     font-size: 12px;
+  }
+}
+
+@media (max-width:1440px){
+  .map-img{
+    width: 450px;
+  }
+}
+@media (max-width:1024px){
+  .map-img{
+    width: 350px;
+  }
+}
+@media (max-width:768px){
+  .map-img{
+    height: 200px;
+    width: 250px;
+  }
+}
+@media (max-width:426px){
+  .map-img{
+    height: 120px;
+    width: 250px;
+  }
+}
+@media (max-width:376px){
+  .map-img{
+    height: 180px;
+    width: 250px;
   }
 }

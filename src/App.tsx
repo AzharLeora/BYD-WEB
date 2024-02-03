@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { BdTemplates, Button, Home, PageNotFound, Preview, ScreenWrapper, WedInvitation, WedTemplates, WeddingFooter, WeddingHeader  } from "@Components";
 import { Route, Routes } from "react-router-dom";
 import { RequireAuth, RequireHome } from "@Routes";
@@ -19,12 +20,19 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./App.css"
 import { Wedding001 } from "./Components/MyComponents/Invitations";
 import UserLocation from "./Components/MyComponents/UserLocation";
+import 'aos/dist/aos.css'
+import Aos from 'aos'
 
 
 // toast 
 
 
 function App() {
+
+  useEffect(()=>{
+    Aos.init();
+},[])
+
 
   // const { language } = useSelector((state: any) => state.AuthReducer);
 
