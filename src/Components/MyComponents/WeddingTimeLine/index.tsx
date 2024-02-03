@@ -1,8 +1,17 @@
+import { useEffect } from "react";
 import UserLocation from "../UserLocation";
 import "./index.css";
 import { image } from "@Assets";
+import 'aos/dist/aos.css'
+import Aos from 'aos'
 
 const WeddingTimeLine = () => {
+
+  useEffect(()=>{
+    Aos.refresh({
+        duration: 1000,
+        delay: 500,});
+},[])
   return (
     <>
       <div className="timeline-bg">
@@ -10,7 +19,7 @@ const WeddingTimeLine = () => {
           <div className="row">
             <div className="col-12">
               {/* title */}
-              <div className="title-section row">
+              <div className="title-section row" >
                 <div className="col-2 col-md-3 pr-0">
                   <div className="d-none d-lg-block">
                     <hr></hr>
@@ -55,15 +64,15 @@ const WeddingTimeLine = () => {
               className="col-6 d-flex align-items-center justify-content-center"
               style={{ borderRight: "1px solid #ce3e7a" }}
             >
-              <div className="caricature-box d-flex align-items-center justify-content-center">
+              <div className="caricature-box d-flex align-items-center justify-content-center" data-aos="fade-right">
                 <img src={image.couples} alt="Couples" />
               </div>
             </div>
             <div
-              className="col-6 d-flex align-items-center justify-content-center "
+              className="col-6 d-flex align-items-center justify-content-left "
               style={{ borderLeft: "1px solid #ce3e7a", width: "100%" }}
             >
-              <div className="content-box d-flex align-items-center justify-content-center  ">
+              <div className="content-box d-flex align-items-center justify-content-left  " data-aos="fade-left">
                 <div className="spacing">
                   <div className="event">Reception</div>
                   <div className="timing mb-4">STARTS AT 06:30 PM</div>
@@ -98,11 +107,11 @@ const WeddingTimeLine = () => {
           {/* Marriage row */}
           <div className="row marriage">
             <div
-              className="col-6 d-flex align-items-center justify-content-center"
+              className="col-6 d-flex align-items-center justify-content-right"
               style={{ borderRight: "1px solid #ce3e7a" }}
             >
-              <div className="content-box d-flex align-items-center justify-content-center  ">
-                <div className="spacing text-right">
+              <div className="content-box d-flex align-items-center justify-content-right  " data-aos="fade-right">
+                <div className="spacing  text-right">
                   <div className="event">Marriage</div>
                   <div className="timing mb-4">STARTS AT 10:00 AM</div>
                   <div className="Quote text-center text-md-right">
@@ -116,7 +125,7 @@ const WeddingTimeLine = () => {
               className="col-6 d-flex align-items-center justify-content-center "
               style={{ borderLeft: "1px solid #ce3e7a", width: "100%" }}
             >
-              <div className="caricature-box d-flex align-items-center justify-content-center">
+              <div className="caricature-box d-flex align-items-center justify-content-center" data-aos="fade-left">
                 <img src={image.traditional} alt="Couples" />
               </div>
             </div>
@@ -139,16 +148,16 @@ const WeddingTimeLine = () => {
               className="col-6 d-flex align-items-center justify-content-center"
               style={{ borderRight: "1px solid #ce3e7a" }}
             >
-              <div className="caricature-box d-flex align-items-center justify-content-center">
+              <div className="caricature-box map-img d-flex align-items-right justify-content-center " data-aos="fade-right">
                 {/* <img src={image.couples}  alt="Couples"/> */}
-                <UserLocation />
+                 <UserLocation  />  
               </div>
             </div>
             <div
-              className="col-6 d-flex align-items-center justify-content-center "
+              className="col-6 d-flex align-items-center justify-content-left "
               style={{ borderLeft: "1px solid #ce3e7a", width: "100%" }}
             >
-              <div className="content-box d-flex align-items-center justify-content-center  ">
+              <div className="content-box d-flex align-items-center justify-content-left  " data-aos="fade-left">
                 <div className="spacing">
                   <div className="event">Venue</div>
                   <div className="place mb-4">KBS SREE CONVENTION CENTRE,</div>

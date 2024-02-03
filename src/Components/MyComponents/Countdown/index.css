@@ -1,4 +1,27 @@
 .flip-countdown-title{
-  font-family: 'Montserrat Alternates', sans-serif !important;
-  font-size: 48px;
+  font-size: 45px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+}
+
+
+@media (max-width:1024px){
+  .flip-countdown-title{
+    font-size: 30px;
+  }
+}
+@media (max-width:768px){
+  .flip-countdown-title{
+    font-size: 25px;
+  }
+}
+@media (max-width:426px){
+  .flip-countdown-title{
+    font-size: 15px;
+  }
+}
+@media (max-width:320px){
+  .flip-countdown-title{
+    font-size: 12px;
+  }
 }

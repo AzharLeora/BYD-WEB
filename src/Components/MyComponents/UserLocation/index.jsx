@@ -8,8 +8,8 @@ function UserLocation() {
     iframeData.src = `https://maps.google.com/maps?q=${lat},${lon}&hl=es;&output=embed`;
   });
   return (
-    <div>
-      <iframe style={{ height: "100%", width: "100%" }} id="iframeId"></iframe>
+    <div style={{height:'100%',width:'100%'}}>
+      <iframe style={{ height: "100%", width: "100%",border:'none' }} id="iframeId"></iframe>
     </div>
   );
 }
