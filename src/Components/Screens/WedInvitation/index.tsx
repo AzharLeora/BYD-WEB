@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react'
 const WedInvitation=()=>{
 
     useEffect(()=>{
-        Aos.refresh({
+        Aos.init({
             duration: 1000,
            });
     },[])

@@ -8,7 +8,7 @@ import Aos from 'aos'
 const WeddingTimeLine = () => {
 
   useEffect(()=>{
-    Aos.refresh({
+    Aos.init({
         duration: 1000,
         delay: 500,});
 },[])
@@ -64,7 +64,7 @@ const WeddingTimeLine = () => {
               className="col-6 d-flex align-items-center justify-content-center"
               style={{ borderRight: "1px solid #ce3e7a" }}
             >
-              <div className="caricature-box d-flex align-items-center justify-content-center" data-aos="fade-right">
+              <div className="caricature-box d-flex align-items-center justify-content-center" data-aos="zoom-in">
                 <img src={image.couples} alt="Couples" />
               </div>
             </div>
@@ -72,7 +72,7 @@ const WeddingTimeLine = () => {
               className="col-6 d-flex align-items-center justify-content-left "
               style={{ borderLeft: "1px solid #ce3e7a", width: "100%" }}
             >
-              <div className="content-box d-flex align-items-center justify-content-left  " data-aos="fade-left">
+              <div className="content-box d-flex align-items-center justify-content-left  " data-aos="zoom-out">
                 <div className="spacing">
                   <div className="event">Reception</div>
                   <div className="timing mb-4">STARTS AT 06:30 PM</div>
@@ -110,7 +110,7 @@ const WeddingTimeLine = () => {
               className="col-6 d-flex align-items-center justify-content-right"
               style={{ borderRight: "1px solid #ce3e7a" }}
             >
-              <div className="content-box d-flex align-items-center justify-content-right  " data-aos="fade-right">
+              <div className="content-box d-flex align-items-center justify-content-right  " data-aos="zoom-in">
                 <div className="spacing  text-right">
                   <div className="event">Marriage</div>
                   <div className="timing mb-4">STARTS AT 10:00 AM</div>
@@ -125,7 +125,7 @@ const WeddingTimeLine = () => {
               className="col-6 d-flex align-items-center justify-content-center "
               style={{ borderLeft: "1px solid #ce3e7a", width: "100%" }}
             >
-              <div className="caricature-box d-flex align-items-center justify-content-center" data-aos="fade-left">
+              <div className="caricature-box d-flex align-items-center justify-content-center" data-aos="zoom-out">
                 <img src={image.traditional} alt="Couples" />
               </div>
             </div>
@@ -148,7 +148,7 @@ const WeddingTimeLine = () => {
               className="col-6 d-flex align-items-center justify-content-center"
               style={{ borderRight: "1px solid #ce3e7a" }}
             >
-              <div className="caricature-box map-img d-flex align-items-right justify-content-center " data-aos="fade-right">
+              <div className="caricature-box map-img d-flex align-items-right justify-content-center " data-aos="zoom-in">
                 {/* <img src={image.couples}  alt="Couples"/> */}
                  <UserLocation  />  
               </div>
@@ -157,7 +157,7 @@ const WeddingTimeLine = () => {
               className="col-6 d-flex align-items-center justify-content-left "
               style={{ borderLeft: "1px solid #ce3e7a", width: "100%" }}
             >
-              <div className="content-box d-flex align-items-center justify-content-left  " data-aos="fade-left">
+              <div className="content-box d-flex align-items-center justify-content-left  " data-aos="zoom-out">
                 <div className="spacing">
                   <div className="event">Venue</div>
                   <div className="place mb-4">KBS SREE CONVENTION CENTRE,</div>

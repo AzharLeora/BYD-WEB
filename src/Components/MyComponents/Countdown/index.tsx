@@ -12,7 +12,7 @@ const Countdown = () => {
   return(
 
     <>
-    <div className="flip-countdown-body d-flex align-items-center justify-content-center flex-column" data-aos='zoom-in-up'>
+    <div className="flip-countdown-body d-flex align-items-center justify-content-center flex-column" data-aos='zoom-up'>
 
     <div className="flip-countdown-title text-center mb-5 ">
      Get Ready To Join With Us On Delightfull Day
