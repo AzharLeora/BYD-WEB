@@ -3,9 +3,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgb(203, 203, 203);
   height: 100vh;
   width: 100%;
+
   position: relative;
 }
 .box-shaddow {
@@ -26,7 +26,8 @@
   justify-content: center;
   font-size: clamp(20px, 4vw, 40px);
   font-weight: bold;
-  font-family: "Great Vibes", cursive !important;
+  font-family: 'IBM Plex Serif', serif;
+  color: white;
 }
 .countdown-setup {
   height: 70vh;
@@ -39,6 +40,7 @@
   font-size: clamp(14px, 3vw, 25px);
 }
 .countown-num {
+ 
   font-size: clamp(20px, 4vw, 40px);
   font-weight: bold;
   font-family: "Great Vibes", cursive;
