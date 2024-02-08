@@ -22,7 +22,7 @@ const WedInvitation=()=>{
   </div>
         <div className="home-bg" >
          <div className="container">
-            <div className='countdown-section pt-5' data-aos='flip-left' data-aos-once="false">
+            <div className='countdown-section pt-5' data-aos='zoom-in-up' data-aos-once="false">
          <Countdown/>
             </div>
          <div style={{boxShadow:' rgba(0, 0, 0, 0.5) 2.4px 2.4px 3.2px'}} className='invitation-section my-5' data-aos='zoom-in-up' data-aos-once="false">
