@@ -48,7 +48,7 @@ const WeddingTimeLine = () => {
                 </div>
                 <div className="col-4  col-md-4 col-lg-2 d-flex flex-nowrap align-items-center justify-content-center text-center">
                   <span className="event-date">
-                    10<sup>th</sup> Feb
+                    25<sup>th</sup> Feb
                   </span>
                 </div>
                 <div className="col-4 col-md-2 col-lg-3 pl-0 ">
@@ -75,10 +75,11 @@ const WeddingTimeLine = () => {
               <div className="content-box d-flex align-items-center justify-content-left  " data-aos="zoom-out">
                 <div className="spacing">
                   <div className="event">Reception</div>
-                  <div className="timing mb-4">STARTS AT 06:30 PM</div>
+                  <div className="timing mb-4">STARTS AT 06:00 PM</div>
                   <div className="Quote text-center text-md-left">
-                    "Its our pleasure to invite you all to be part of our
-                    special day."
+                    {/* "Its our pleasure to invite you all to be part of our
+                    special day." */}
+                    "Your presence lights up our celebration. Welcome, dear friends and family!"
                   </div>
                 </div>
               </div>
@@ -96,7 +97,7 @@ const WeddingTimeLine = () => {
             </div>
             <div className="col-4 col-md-4 col-lg-2 d-flex align-items-center justify-content-center text-center">
               <span className="event-date">
-                11<sup>th</sup> Feb
+                26<sup>th</sup> Feb
               </span>
             </div>
             <div className="col-4 col-md-2 col-lg-3  pl-0 ">
@@ -113,10 +114,11 @@ const WeddingTimeLine = () => {
               <div className="content-box d-flex align-items-center justify-content-right  " data-aos="zoom-in">
                 <div className="spacing  text-right">
                   <div className="event">Marriage</div>
-                  <div className="timing mb-4">STARTS AT 10:00 AM</div>
+                  <div className="timing mb-4">{`STARTS AT 09:00 AM`}</div>
                   <div className="Quote text-center text-md-right">
-                    "We would eagerly await your kind presence at the wedding
-                    celebration."
+                    {/* "We would eagerly await your kind presence at the wedding
+                    celebration." */}
+                    "Welcome to the celebration of love, laughter, and happily ever after!"
                   </div>
                 </div>
               </div>
@@ -160,9 +162,11 @@ const WeddingTimeLine = () => {
               <div className="content-box d-flex align-items-center justify-content-left  " data-aos="zoom-out">
                 <div className="spacing">
                   <div className="event">Venue</div>
-                  <div className="place mb-4">KBS SREE CONVENTION CENTRE,</div>
+                  <div className="place mb-4">MP Wedding & Convention Mahal,</div>
                   <div className="address text-center text-md-left">
-                    ECR Road (Near Shivaji Statue),Puducherry-605008
+                  { ` No.2,Sowmiya Nagar,
+                  Perambur Redhills Road,
+                   Kathirvedu,Chennai-600 066`}
                   </div>
                 </div>
               </div>
