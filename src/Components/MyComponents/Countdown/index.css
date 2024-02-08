@@ -33,6 +33,7 @@
 @media (max-width:768px){
   .flip-countdown-title{
     font-size: 25px;
+    font-weight: bold;
   }
   .flip-countdown .flip-countdown-piece {
     margin: 0 0.4em !important ;
@@ -41,7 +42,8 @@
 }
 @media (max-width:426px){
   .flip-countdown-title{
-    font-size: 15px;
+    font-size:20px;
+    font-weight: bold;
   }
   .flip-countdown .flip-countdown-piece {
     margin: 0 0.3em !important ;
@@ -49,7 +51,8 @@
 }
 @media (max-width:320px){
   .flip-countdown-title{
-    font-size: 12px;
+    font-size: 18px;
+    font-weight: bold;
   }
   .flip-countdown .flip-countdown-piece {
     margin: 0 0.2em !important ;

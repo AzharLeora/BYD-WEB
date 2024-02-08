@@ -16,7 +16,7 @@ const WedInvitation=()=>{
 
     return (
         <>
-  <div data-aos="zoom-in" data-aos-once="false">
+  <div data-aos="zoom-in" data-aos-once="true">
 
         <WeddingHeader/>
   </div>
