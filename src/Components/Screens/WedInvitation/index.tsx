@@ -16,13 +16,13 @@ const WedInvitation=()=>{
 
     return (
         <>
-  <div data-aos="zoom-in" data-aos-once="false">
+  <div data-aos="zoom-in" data-aos-once="true">
 
         <WeddingHeader/>
   </div>
         <div className="home-bg" >
          <div className="container">
-            <div className='countdown-section pt-5' data-aos='flip-left' data-aos-once="false">
+            <div className='countdown-section pt-5' data-aos='zoom-in-up' data-aos-once="false">
          <Countdown/>
             </div>
          <div style={{boxShadow:' rgba(0, 0, 0, 0.5) 2.4px 2.4px 3.2px'}} className='invitation-section my-5' data-aos='zoom-in-up' data-aos-once="false">
@@ -32,10 +32,8 @@ const WedInvitation=()=>{
         <div className='timeline-section mb-5'>
         <WeddingTimeLine/>
         </div>
-        <div className="container">
         <div className='footer-section'>
         <WeddingFooter/>
-        </div>
         </div>
 
         </div>
