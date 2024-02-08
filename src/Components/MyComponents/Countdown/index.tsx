@@ -15,7 +15,7 @@ const Countdown = () => {
   return(
 
     <>
-    <div className="flip-countdown-body d-flex align-items-center justify-content-center flex-column" data-aos='zoom-up'>
+    <div className="flip-countdown-body d-flex align-items-center justify-content-center flex-column">
 
     <div className="flip-countdown-title text-center mb-5 ">
      Get Ready To Join With Us On Delightfull Day
@@ -25,13 +25,13 @@ const Countdown = () => {
           hideYear
           size='small'
         
-          endAt={'2024-04-12 07:00:00'} 
+          endAt={'2024-02-26 09:00:00'} 
         /> 
      </div>   
      <div className="flip-countdown-comp d-none d-md-block">
        <FlipCountdown
           hideYear
-          endAt={'2024-04-12 07:00:00'} 
+          endAt={'2024-02-26 09:00:00'} 
         /> 
      </div>   
     </div>

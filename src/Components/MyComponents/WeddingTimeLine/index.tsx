@@ -164,9 +164,10 @@ const WeddingTimeLine = () => {
                   <div className="event">Venue</div>
                   <div className="place mb-4">MP Wedding & Convention Mahal,</div>
                   <div className="address text-center text-md-left">
-                  { ` No.2,Sowmiya Nagar,
-                  Perambur Redhills Road,
-                   Kathirvedu,Chennai-600 066`}
+                    <div className="text-center text-md-left">No.2,Sowmiya Nagar,</div>
+                    <div className="text-center text-md-left">Perambur Redhills Road,</div>
+                    <div className="text-center text-md-left"> Kathirvedu,</div>
+                    <div className="text-center text-md-left"> Chennai-600066</div>
                   </div>
                 </div>
               </div>
