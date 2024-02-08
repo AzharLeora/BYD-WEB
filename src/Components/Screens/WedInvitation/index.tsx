@@ -32,10 +32,8 @@ const WedInvitation=()=>{
         <div className='timeline-section mb-5'>
         <WeddingTimeLine/>
         </div>
-        <div className="container">
         <div className='footer-section'>
         <WeddingFooter/>
-        </div>
         </div>
 
         </div>
