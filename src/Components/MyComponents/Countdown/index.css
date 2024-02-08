@@ -4,7 +4,9 @@
   font-weight: bold;
 }
 
-
+/* .flip-countdown.size-medium .flip-countdown-piece{
+  margin: 0 0.6em;
+} */
 @media (max-width:1024px){
   .flip-countdown-title{
     font-size: 30px;
