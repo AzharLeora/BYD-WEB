@@ -17,12 +17,12 @@ const WeddingHeader = () => {
   return (
     <div
       className="main-banner d-flex align-items-center justify-content-center"
-      style={{ height: "100%", width: "100%" }}
+     
     >
       <motion.img
         src={arr[displayImage]}
         alt="img"
-        width={"40%"}
+        width={"64%"}
         className="headerImg"
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}

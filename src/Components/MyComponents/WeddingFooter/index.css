@@ -1,12 +1,19 @@
+.footer-banner{
+  background-image: url("../../../Assets/img/images/h-b-img.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
 .footerImg {
   margin: 10px 0;
 }
+
 .my-logo {
   filter: brightness(0) saturate(100%) contrast(100%);
 }
 @media (max-width: 620px) {
   .footer-banner img {
-    width: 90%;
+    width: 60%;
   }
 }
 @media (max-width: 320px) {

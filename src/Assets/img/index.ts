@@ -13,10 +13,10 @@ export const image = {
     handHeart:require('./images/heart.png'),
     loveBirds:require('./images/love-birds.png'),
     traditional:require('./images/traditional-image.png'),
-    h1Img:require('./images/h1-img.jpg'),
-    h2Img:require('./images/h2-img.jpg'),
-    f1Img:require('./images/f1-img.jpg'),
-    f2Img:require('./images/f2-img.jpg'),
+    h1Img:require('./images/h1-img.jpeg'),
+    h2Img:require('./images/h2-img.jpeg'),
+    f1Img:require('./images/f1-img.jpeg'),
+    f2Img:require('./images/f2-img.jpeg'),
     logo:require('./images/BYD-logo.png'),
     bodyInvitation:require('./images/bodyImage.png')
    
