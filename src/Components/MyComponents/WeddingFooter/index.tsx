@@ -22,7 +22,7 @@ const WeddingFooter = () => {
         <img
           src={arr[displayImage]}
           alt="img"
-          width={"35%"}
+          width={"50%"}
           className="footerImg"
         />
       </div>

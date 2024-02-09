@@ -22,7 +22,7 @@ const WeddingHeader = () => {
       <motion.img
         src={arr[displayImage]}
         alt="img"
-        width={"40%"}
+        width={"50%"}
         className="headerImg"
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
