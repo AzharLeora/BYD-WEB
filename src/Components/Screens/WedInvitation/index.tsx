@@ -16,11 +16,11 @@ const WedInvitation=()=>{
 
     return (
         <>
+        <div className="home-bg" >
   <div data-aos="zoom-in" data-aos-once="true">
 
         <WeddingHeader/>
   </div>
-        <div className="home-bg" >
          <div className="container">
             <div className='countdown-section pt-5' data-aos='zoom-in-up' data-aos-once="false">
          <Countdown/>
