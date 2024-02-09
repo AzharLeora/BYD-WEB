@@ -16,16 +16,16 @@ const WedInvitation=()=>{
 
     return (
         <>
+        <div className="home-bg" >
   <div data-aos="zoom-in" data-aos-once="true">
 
         <WeddingHeader/>
   </div>
-        <div className="home-bg" >
          <div className="container">
             <div className='countdown-section pt-5' data-aos='zoom-in-up' data-aos-once="false">
          <Countdown/>
             </div>
-         <div style={{boxShadow:' rgba(0, 0, 0, 0.5) 2.4px 2.4px 3.2px'}} className='invitation-section my-5' data-aos='zoom-in-up' data-aos-once="false">
+         <div  className='invitation-section my-5 d-flex justify-content-center align-items-center' data-aos='zoom-in-up' data-aos-once="false">
          <BYDInvitation/>
         </div>
         </div>
