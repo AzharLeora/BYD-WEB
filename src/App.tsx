@@ -22,6 +22,7 @@ import { Wedding001 } from "./Components/MyComponents/Invitations";
 import UserLocation from "./Components/MyComponents/UserLocation";
 import 'aos/dist/aos.css'
 import Aos from 'aos'
+import { PopEffect } from "./Components/MyComponents/Countdown/PopEffect";
 
 
 // toast 
@@ -41,6 +42,7 @@ function App() {
   return (
     <ScreenWrapper>   
       <WedInvitation />
+      {/* <PopEffect/> */}
     </ScreenWrapper>
   );
 }
