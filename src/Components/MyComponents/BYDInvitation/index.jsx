@@ -7,7 +7,10 @@ import 'aos/dist/aos.css'
 
 function BYDInvitation() {
   useEffect(()=>{
-    Aos.init();
+    Aos.init({
+      duration:1000,
+      delay:100,
+    });
 },[])
 
   return (
