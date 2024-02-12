@@ -10,7 +10,7 @@
 }
 .timeline-bg::before {
   content: "";
-  background-image: url("../../../Assets/img/images/couple-timeline\ -bg.webp");
+  background-image: url("../../../Assets/img/images/couple-timeline\ -bg.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
