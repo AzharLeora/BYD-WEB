@@ -18,7 +18,8 @@ export const image = {
     f1Img:require('./images/f1-img.jpeg'),
     f2Img:require('./images/f2-img.jpeg'),
     logo:require('./images/BYD-logo.png'),
-    bodyInvitation:require('./images/bodyImage.png')
+    bodyInvitation:require('./images/bodyImage.png'),
+    
    
 
 }
