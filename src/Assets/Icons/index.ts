@@ -261,6 +261,6 @@ export const icons = {
   birthdayAge:require('./BookYourDay/age-limit.png'),
   birthdayFather:require('./BookYourDay/father.png'),
   birthdayMother:require('./BookYourDay/mother.png'),
-  birthdayCalendar:require('./BookYourDay/birthday.png')
-
+  birthdayCalendar:require('./BookYourDay/birthday.png'),
+  forward:require('./forward/forward.png')
 };
