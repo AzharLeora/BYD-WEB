@@ -1,0 +1,48 @@
+.forward-icon{
+    width: 50px;
+}
+.whatsapp{
+    background-color: bisque;
+    padding: 13px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.whatsapp:active{
+    background-color: rgba(255, 228, 196, 0.685);
+   
+}
+
+@media (max-width:1440px){
+  .forward-icon{
+    width:24px ;
+  }
+  .whatsapp{
+    padding:8px;
+  }
+}
+@media (max-width:1024px){
+  .forward-icon{
+    width:24px ;
+  }
+  .whatsapp{
+    padding:8px;
+  }
+}
+@media (max-width:768px){
+  .forward-icon{
+    width:18px ;
+  }
+  .whatsapp{
+    padding: 6px 9px;
+        border-radius: 50%;
+  }
+}
+@media (max-width:426px){
+  .forward-icon{
+    width:12px ;
+  }
+  .whatsapp{
+    padding:0 6px;
+        border-radius: 50%;
+  }
+}
