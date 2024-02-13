@@ -7,26 +7,26 @@ import { useEffect, useState } from 'react'
 import { icons } from '@Assets'
 
 const WedInvitation=()=>{
-    // const [isShowShareModal,setIsShowShareModal]=useState(false)
-    // const closeModal=()=> setIsShowShareModal(false)
+    const [isShowShareModal,setIsShowShareModal]=useState(false)
+    const closeModal=()=> setIsShowShareModal(false)
 
-    useEffect(()=>{
-        Aos.init({
-            duration: 1000,
-            delay:100,
-           });
-    },[])
+    // useEffect(()=>{
+    //     Aos.init({
+    //         duration: 1000,
+    //         delay:100,
+    //        });
+    // },[])
 
     return (
         <>
         <div className="home-bg" >
-            {/* {isShowShareModal&&<Modal title='Share' isOpen={isShowShareModal} onClose={closeModal}>
+            {isShowShareModal&&<Modal title='Share' isOpen={isShowShareModal} onClose={closeModal}>
                       <button onClick={closeModal} className='btn btn-primary'>Close</button>
                 </Modal>}
         <div className='share-button'>
             <Button variant='icon-rounded' onClick={()=>setIsShowShareModal(true)} style={{backgroundColor:'transparent',outline:'none',border:'none',position:'fixed',top:'10px',right:'10px',zIndex:'2'}} icon={icons.forward}/>
-        </div> */}
-  <div data-aos="zoom-in" data-aos-once="true">
+        </div>
+  <div >
 
         <WeddingHeader/>
   </div>
@@ -34,7 +34,7 @@ const WedInvitation=()=>{
             <div className='countdown-section pt-5 d-flex flex-column align-items-center justify-content-center'>
          <Countdown/>
             </div>
-         <div  className='invitation-section my-5 d-flex justify-content-center align-items-center' data-aos='zoom-in-up' data-aos-once="false">
+         <div  className='invitation-section my-5 d-flex justify-content-center align-items-center'>
          <BYDInvitation/>
         </div>
         </div>
