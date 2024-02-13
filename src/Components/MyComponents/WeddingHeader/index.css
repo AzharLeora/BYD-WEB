@@ -1,31 +1,16 @@
-
-
 .main-banner{
-
-  background: url("../../../Assets/img/images/h-b-img.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height:100dvh;
-
+    background-image: url('../../../Assets/img/images/h-b-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.headerImg {
-  width: 70dvh;
-  border-radius: 5px;
-  box-shadow: 1px 0px 17px 3px rgba(255, 255, 255, 0.4);
-
+.headerImg{
+    margin:10px 0;
 }
 
-@media (max-width:426px){
-  .headerImg{
-   margin: auto 0;
-    width: 80%;
-  }
-  .main-banner{
-    height: 100dvh;
-  }
+@media (max-width:620px){
+    .main-banner img{
+        width: 90%;
+    }
 }
-
-
-
