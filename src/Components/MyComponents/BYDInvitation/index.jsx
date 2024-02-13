@@ -15,7 +15,7 @@ function BYDInvitation() {
 
   return (
     <>
-      <div className="d-flex justify-content-center align-item-center BYDContainer" >
+      <div className="d-flex justify-content-center align-item-center BYDContainer" data-aos='zoom-in-up' data-aos-once="false">
           <img className="image-fluid bodyImage" src={image.bodyInvitation} />
       </div>
     </>

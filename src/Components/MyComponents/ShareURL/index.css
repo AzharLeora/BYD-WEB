@@ -1,3 +1,40 @@
-.box{
-    padding:15px 10px;
+.forward-icon{
+    width: 80px;
+}
+.whatsapp{
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;}
+
+@media (max-width:1440px){
+  .forward-icon{
+    width:30px ;
+  }
+}
+@media (max-width:1024px){
+  .forward-icon{
+    width:30px ;
+  }
+  .whatsapp{
+    padding:12px;
+  }
+}
+@media (max-width:768px){
+  .forward-icon{
+    width:20px ;
+  }
+  .whatsapp{
+    padding: 10px 12px;
+        border-radius: 50%;
+  }
+}
+@media (max-width:426px){
+  .forward-icon{
+    width:15px ;
+  }
+  .whatsapp{
+    padding: 3px 7px;
+        border-radius: 50%;
+  }
 }

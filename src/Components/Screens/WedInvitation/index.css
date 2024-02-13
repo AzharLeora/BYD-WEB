@@ -3,4 +3,10 @@
     background: linear-gradient(0deg, rgba(240,105,103,0.1) 0%, rgba(254,235,132,0.2) 100%);
 }
 
+.share-button{
+    position: fixed;
+    top:2%;
+    right: 2%;
+    z-index: 2;
+}
 
