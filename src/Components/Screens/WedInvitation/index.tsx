@@ -5,10 +5,9 @@ import Aos from 'aos'
 import { BYDInvitation } from '@Components'
 import { useEffect, useState } from 'react'
 import { icons } from '@Assets'
+import SharePage from '@Components//MyComponents/ShareURL'
 
 const WedInvitation=()=>{
-    const [isShowShareModal,setIsShowShareModal]=useState(false)
-    const closeModal=()=> setIsShowShareModal(false)
 
     // useEffect(()=>{
     //     Aos.init({
@@ -20,11 +19,10 @@ const WedInvitation=()=>{
     return (
         <>
         <div className="home-bg" >
-            {isShowShareModal&&<Modal title='Share' isOpen={isShowShareModal} onClose={closeModal}>
-                      <button onClick={closeModal} className='btn btn-primary'>Close</button>
-                </Modal>}
+
+          
         <div className='share-button'>
-            <Button variant='icon-rounded' onClick={()=>setIsShowShareModal(true)} style={{backgroundColor:'transparent',outline:'none',border:'none',position:'fixed',top:'10px',right:'10px',zIndex:'2'}} icon={icons.forward}/>
+            <SharePage />
         </div>
   <div >
 
