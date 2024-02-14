@@ -6,12 +6,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height:100vh;
+  height:100dvh;
 
 }
 
 .headerImg {
-  width: 70dvh;
+  width: 50%;
   border-radius: 5px;
   box-shadow: 1px 0px 17px 3px rgba(255, 255, 255, 0.4);
 
@@ -22,9 +22,7 @@
    margin: auto 0;
     width: 88%;
   }
-  .main-banner{
-    height: 100vh;
-  }
+ 
 }
 
 
