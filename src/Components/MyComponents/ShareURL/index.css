@@ -1,48 +1,52 @@
 .forward-icon{
-    width: 50px;
+    width: 90px;
 }
 .whatsapp{
-    background-color: bisque;
-    padding: 13px;
+    background-color: rgba(255, 228, 196, 0.642);
+    padding: 40px;
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .whatsapp:active{
-    background-color: rgba(255, 228, 196, 0.685);
+    background-color: rgba(255, 228, 196, 0.269);
+   
+}
+.whatsapp:hover{
+    background-color: rgba(255, 228, 196, 0.858);
    
 }
 
 @media (max-width:1440px){
   .forward-icon{
-    width:24px ;
+    width:25px ;
   }
   .whatsapp{
-    padding:8px;
+    padding:10px;
   }
 }
 @media (max-width:1024px){
   .forward-icon{
-    width:24px ;
+    width:22px ;
   }
   .whatsapp{
-    padding:8px;
+    padding:9px;
   }
 }
 @media (max-width:768px){
   .forward-icon{
-    width:18px ;
+    width:20px ;
   }
   .whatsapp{
-    padding: 6px 9px;
+    padding: 9px  11px;
         border-radius: 50%;
   }
 }
 @media (max-width:426px){
   .forward-icon{
-    width:12px ;
+    width:14px ;
   }
   .whatsapp{
-    padding:0 6px;
+    padding:2px 7px;
         border-radius: 50%;
   }
 }
