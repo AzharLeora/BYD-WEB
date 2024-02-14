@@ -13,13 +13,14 @@ import { image } from "@Assets";
 
 function SharePage() {
   const url = window.location;
-  const imageUrl =image.h1Img
+  const imageUrl =image.h1Img;
+  const message = `${imageUrl}`
   return (
     <div className="d-flex align-items-center justify-content-center">
   
       {/* whatsapp */}
       <div className="whatsapp d-flex align-items-center justify-content-center">
-        <WhatsappShareButton url={url} separator=":: ">
+        <WhatsappShareButton url={url} title={message}>
           
           <img src={icons.forward} className="forward-icon" style={{border:'none',outline:'none'}} />
         </WhatsappShareButton>
