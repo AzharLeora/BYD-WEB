@@ -11,7 +11,7 @@
 }
 
 .headerImg {
-  width: 50%;
+  width: 70dvh;
   border-radius: 5px;
   box-shadow: 1px 0px 17px 3px rgba(255, 255, 255, 0.4);
 
@@ -20,9 +20,11 @@
 @media (max-width:426px){
   .headerImg{
    margin: auto 0;
-    width: 88%;
+    width: 80%;
   }
- 
+  .main-banner{
+    height: 100dvh;
+  }
 }
 
 
