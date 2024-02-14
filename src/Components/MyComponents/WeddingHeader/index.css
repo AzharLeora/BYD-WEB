@@ -6,21 +6,35 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height:100dvh;
-
+  min-height:100dvh;
+  transition: transform 0.3s ease-in-out ;
+  
 }
 
 .headerImg {
-  width: 50%;
+  width: 30%;
   border-radius: 5px;
   box-shadow: 1px 0px 17px 3px rgba(255, 255, 255, 0.4);
+  transition: transform 0.3s ease-in-out ;
+
 
 }
 
 @media (max-width:426px){
   .headerImg{
    margin: auto 0;
+    width: 80%;
+    transition: transform 0.3s ease-in-out ;
+
+  }
+ 
+}
+@media (max-width:320px){
+  .headerImg{
+   margin: auto 0;
     width: 88%;
+    transition: transform 0.3s ease-in-out ;
+
   }
  
 }
