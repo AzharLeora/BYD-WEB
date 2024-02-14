@@ -20,10 +20,10 @@
 @media (max-width:426px){
   .headerImg{
    margin: auto 0;
-    width: 80%;
+    width: 88%;
   }
   .main-banner{
-    height: 100dvh;
+    height: 100vh;
   }
 }
 
