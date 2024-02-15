@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { image } from "@Assets";
 import "./index.css";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const WeddingHeader = () => {
   const [displayImage, setDisplayImage] = useState<number>(0);
