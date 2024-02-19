@@ -30,6 +30,9 @@ const WedInvitation=()=>{
   </div>
          <div className="container">
             <div className='countdown-section pt-5 d-flex flex-column align-items-center justify-content-center'>
+            <div className="flip-countdown-title text-center mb-5 ">
+     Get Ready To Join With Us On Delightfull Day
+    </div>
          <Countdown/>
             </div>
          <div  className='invitation-section my-5 d-flex justify-content-center align-items-center'>

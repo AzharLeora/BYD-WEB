@@ -1,42 +1,58 @@
-import { useEffect, useState } from 'react';
-import './index.css';
-import FlipCountdown from '@rumess/react-flip-countdown';
-import 'aos/dist/aos.css'
-import Aos from 'aos'
-const Countdown = () => {
+import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
+import "@leenguyen/react-flip-clock-countdown/dist/index.css";
+import { useEffect, useState } from "react";
 
- useEffect(()=>{
-    Aos.init({
-      duration:1000,
-      delay:100,
-    })
- },[])
-  
-  return(
+export default function Countdown() {
+  const [windowSize, setWindowSize] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
+  const dateTimeString = "2024-02-26T09:00:00";
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
 
-    <>
-    <div className="flip-countdown-body d-flex align-items-center justify-content-center flex-column">
+    window.addEventListener("resize", handleResize);
 
-    <div className="flip-countdown-title text-center mb-5 ">
-     Get Ready To Join With Us On Delightfull Day
-    </div>
-     <div className="flip-countdown-comp d-md-none"  data-aos='zoom-in-up' data-aos-once="false">
-       <FlipCountdown
-          hideYear
-          size='small'
-        
-          endAt={'2024-02-26 09:00:00'} 
-        /> 
-     </div>   
-     <div className="flip-countdown-comp d-none d-md-block"  data-aos='zoom-in-up' data-aos-once="false">
-       <FlipCountdown
-          hideYear
-          endAt={'2024-02-26 09:00:00'} 
-        /> 
-     </div>   
-    </div>
-    </>
-  )
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  return (
+    <section className="flex flex-col  justify-center items-center h-screen md:w-screen md:h-screen">
+      <div className="bg-black/70 absolute w-full h-full"></div>
+      {/* <img className="w-full h-full object-cover" src={Back} alt="" /> */}
+
+      <div className="absolute flex flex-col items-center text-center">
+        {/* <h1 className="text-[2rem] mb-[1rem]">Launching Soon</h1>
+                <h3 className="font-light max-w-[300px] md:max-w-[450px] mb-[3rem]">Leave your email and we'll get across to you once we launch!!!</h3> */}
+
+        <FlipClockCountdown
+          labelStyle={{
+            fontSize: windowSize.width < 425 ? 10 : 13,
+            fontWeight: windowSize.width < 425 ? "bold" : "bolder",
+            textTransform: "uppercase",
+            color: " #801743 ",
+          }}
+          to={new Date(dateTimeString).getTime()}
+          labels={["DAYS", "HOURS", "MINS", "SECS"]}
+          digitBlockStyle={{
+            width: windowSize.width <= 426 ? 20 : 40,
+            height: windowSize.width <= 426 ? 40 : 60,
+            fontSize: windowSize.width <= 426 ? 12 : 30,
+            fontFamily: "Montserrat , sans-serif",
+          }}
+          // dividerStyle={{ color: "red", height: 1 }}
+          //  separatorStyle={{ color: "grey", size: "6px" }}
+          duration={0.5}
+        />
+      </div>
+    </section>
+  );
 }
-
-export{Countdown}
+export { Countdown };
