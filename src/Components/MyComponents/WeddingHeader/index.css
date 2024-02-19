@@ -12,14 +12,22 @@
 }
 
 .headerImg {
-  width: 30%;
+  width: 34%;
   border-radius: 5px;
   box-shadow: 1px 0px 17px 3px rgba(255, 255, 255, 0.4);
   transition: transform 0.3s ease-in-out ;
 
 
 }
+@media (max-width:769px){
+  .headerImg{
+   margin: auto 0;
+    width:70svh;
+    transition: transform 0.3s ease-in-out ;
 
+  }
+ 
+}
 @media (max-width:426px){
   .headerImg{
    margin: auto 0;

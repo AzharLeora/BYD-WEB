@@ -5,8 +5,46 @@
 
 .share-button{
     position: fixed;
-    top:5%;
+    bottom:5%;
     right: 4%;
     z-index: 2;
 }
 
+.flip-countdown-title{
+    font-size: 45px;
+    font-family: 'Montserrat ', sans-serif;
+    font-weight: bolder;
+  }
+  
+  
+  .flip-countdown-title{
+    color: #801743 !important;
+  }
+  @media (max-width:769px){
+    .flip-countdown-title{
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .flip-countdown .flip-countdown-piece {
+      margin: 0 0.4em !important ;
+    }
+  
+  }
+  @media (max-width:426px){
+    .flip-countdown-title{
+      font-size:17px;
+      font-weight: bold;
+    }
+    .flip-countdown .flip-countdown-piece {
+      margin: 0 0.3em !important ;
+    }
+  }
+  @media (max-width:320px){
+    .flip-countdown-title{
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .flip-countdown .flip-countdown-piece {
+      margin: 0 0.2em !important ;
+    }
+  }
