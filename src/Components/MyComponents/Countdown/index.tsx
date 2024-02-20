@@ -1,6 +1,7 @@
 import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
 import "@leenguyen/react-flip-clock-countdown/dist/index.css";
 import { useEffect, useState } from "react";
+import "./index.css"
 
 export default function Countdown() {
   const [windowSize, setWindowSize] = useState({
@@ -33,6 +34,7 @@ export default function Countdown() {
                 <h3 className="font-light max-w-[300px] md:max-w-[450px] mb-[3rem]">Leave your email and we'll get across to you once we launch!!!</h3> */}
 
         <FlipClockCountdown
+          
           labelStyle={{
             fontSize: windowSize.width < 425 ? 10 : 13,
             fontWeight: windowSize.width < 425 ? "bold" : "bolder",
@@ -42,13 +44,14 @@ export default function Countdown() {
           to={new Date(dateTimeString).getTime()}
           labels={["DAYS", "HOURS", "MINS", "SECS"]}
           digitBlockStyle={{
-            width: windowSize.width <= 426 ? 20 : 40,
+            width: windowSize.width <= 426 ? 27 : 40,
             height: windowSize.width <= 426 ? 40 : 60,
             fontSize: windowSize.width <= 426 ? 12 : 30,
             fontFamily: "Montserrat , sans-serif",
           }}
-          // dividerStyle={{ color: "red", height: 1 }}
-          //  separatorStyle={{ color: "grey", size: "6px" }}
+          //  dividerStyle={{ color: "red", height: 1 }}
+           separatorStyle={{ color: "transparent",size:0 }}
+           
           duration={0.5}
         />
       </div>

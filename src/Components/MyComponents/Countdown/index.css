@@ -1,0 +1,10 @@
+._2hRXr {
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+  }
+@media (max-width:426px){
+    ._2hRXr {
+        margin-left: 4px !important;
+        margin-right: 4px !important;
+      }
+}
