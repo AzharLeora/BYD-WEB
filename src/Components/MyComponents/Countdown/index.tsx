@@ -7,7 +7,8 @@ export default function Countdown() {
     width: window.innerWidth,
     height: window.innerHeight,
   });
-  const dateTimeString = "2024-02-26T09:00:00";
+  const [givenDateTime,setGivenDateTime]=useState("2024-03-18T11:50:00")
+
   useEffect(() => {
     const handleResize = () => {
       setWindowSize({
@@ -15,14 +16,32 @@ export default function Countdown() {
         height: window.innerHeight,
       });
     };
+    const addDates = (dates,days) =>{
+      const result = new Date(dates);
+      result.setDate(result.getDate()+days);
+      return result
+    }
+    const now = new Date();
+    function getCurrentDateTime() {
+      const now = new Date();
+      const initialDate = new Date(givenDateTime)
+
+      if(now>=initialDate){
+        const updateDate = addDates(initialDate,10);
+        const updateDateToString = updateDate.toISOString()
+        setGivenDateTime(updateDateToString);
+      }
+    }
+    const interval = setInterval(getCurrentDateTime, 1000);
+
+    console.log(getCurrentDateTime(), "current date and time");
 
     window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener("resize", handleResize);
+      window.removeEventListener("resize", handleResize)
     };
   }, []);
-
   return (
     <section className="flex flex-col  justify-center items-center h-screen md:w-screen md:h-screen">
       <div className="bg-black/70 absolute w-full h-full"></div>
@@ -39,7 +58,7 @@ export default function Countdown() {
             textTransform: "uppercase",
             color: " #801743 ",
           }}
-          to={new Date(dateTimeString).getTime()}
+          to={new Date(givenDateTime).getTime()}
           labels={["DAYS", "HOURS", "MINS", "SECS"]}
           digitBlockStyle={{
             width: windowSize.width <= 426 ? 20 : 40,
